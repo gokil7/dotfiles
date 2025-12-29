@@ -40,7 +40,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 
 
 # ---- Theme (optional lazy load) ----
-zinit light sindresorhus/pure
+# zinit light sindresorhus/pure
 
 # ---- Autosuggest style ----
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
@@ -68,6 +68,9 @@ if [[ -f "$(brew --prefix)/opt/fzf/shell/completion.zsh" ]]; then
 fi
 
 eval "$(zoxide init zsh)"
+
+# ---- ohmyposh ----
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/theme_v2.omp.json)"
 
 # ---- Key bindings ----
 bindkey -e

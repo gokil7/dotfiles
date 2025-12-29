@@ -29,6 +29,7 @@ window-colorspace = "display-p3"
 macos-titlebar-style = transparent
 background-opacity = 0.8
 background-blur = 90
+maximize = true
 
 # --------------------
 # Theme
