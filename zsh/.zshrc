@@ -82,3 +82,4 @@ bindkey '^R' fzf-history-widget
 # ---- Aliases -----
 alias ls='ls --color'
 alias llr='ls -lrth --color'
+

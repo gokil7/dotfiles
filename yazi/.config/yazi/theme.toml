@@ -1,0 +1,15 @@
+[mgr]
+cwd = { fg = "#8aadf4", bold = true }
+hovered = { bg = "#313244", fg = "#ffffff", bold = true }
+selected = { bg = "#45475a", fg = "#ffffff", bold = true }
+
+[filetype]
+directory = { fg = "#8aadf4", bold = true }
+executable = { fg = "#a6da95", bold = true }
+symlink = { fg = "#7dc4e4" }
+
+[status]
+separator = { fg = "#6e738d" }
+mode_normal = { fg = "#a6da95", bold = true }
+mode_select = { fg = "#f5a97f", bold = true }
+

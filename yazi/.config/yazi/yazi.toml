@@ -1,0 +1,13 @@
+# =========================
+# Core file manager config
+# =========================
+
+[mgr]
+show_hidden = true
+
+
+# Layout: parent | current | preview
+layout = "horizontal"
+
+# Give preview most of the space
+ratio = [1, 2, 5]
