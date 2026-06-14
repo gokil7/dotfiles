@@ -1,4 +1,3 @@
-tap "theboredteam/boring-notch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
@@ -15,20 +14,14 @@ brew "handbrake"
 brew "htop"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
-# Utility to optimize JPEG files
-brew "jpegoptim"
 # Fast and secure open-source backup
 brew "kopia"
 # Deep clean and optimize your Mac
 brew "mole"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Development kit for the Java programming language
 brew "openjdk@21"
-# Multithreaded PNG optimizer written in Rust
-brew "oxipng"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
 # Search tool like grep and The Silver Searcher
@@ -57,8 +50,6 @@ cask "appcleaner"
 cask "bitwarden"
 # Send any size file between devices
 cask "blip"
-# Write, edit, and chat about your code with AI
-cask "cursor"
 # Voice and text chat software
 cask "discord"
 # Window peeking utility app
@@ -66,8 +57,6 @@ cask "dockdoor"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Chromium-based web browser
-cask "helium-browser"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Convert your caps lock key or any of your modifier keys to the hyper key
@@ -76,8 +65,6 @@ cask "hyperkey"
 cask "iina"
 # Tool to optimise images to a smaller size
 cask "imageoptim"
-# Menu bar manager
-cask "jordanbaird-ice"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Backup/restore tool
@@ -89,8 +76,6 @@ cask "protonvpn"
 # Control your tools with a few keystrokes
 cask "raycast"
 # GUI for rsync
-cask "rsyncui"
-# Open source virtual/remote desktop application
 cask "rustdesk"
 # Screenshot measurement and annotation tool
 cask "shottr"
@@ -98,8 +83,6 @@ cask "shottr"
 cask "stats"
 # Video game digital distribution service
 cask "steam"
-# Menu bar manager
-cask "thaw"
 # Open-source code editor
 cask "visual-studio-code"
 # Multiplayer code editor
