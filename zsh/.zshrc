@@ -46,17 +46,33 @@ zinit light zsh-users/zsh-syntax-highlighting
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
 
 # ---- History behavior ----
+
 HISTSIZE=50000
 SAVEHIST=50000
-HISTFILE=~/.zsh_history
-HISTDUP=erase
+HISTFILE="$HOME/.zsh_history"
 
-setopt share_history        # share history across tabs
-setopt hist_ignore_dups     # no consecutive duplicates
-setopt hist_ignore_space    # commands starting with space not saved
-setopt hist_verify          # show history expansion before executing
-setopt hist_save_no_dups
+# Append instead of overwrite
+setopt append_history
+
+# Write immediately to disk
+setopt inc_append_history
+
+# Share history across sessions/tabs
+setopt share_history
+
+# Store timestamps
+setopt extended_history
+
+# Ignore duplicates
+setopt hist_ignore_dups
 setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+
+# Ignore commands starting with space
+setopt hist_ignore_space
+
+# Show history expansion before execution
+setopt hist_verify
 
 # ---- fzf (Homebrew) ----
 if [[ -f "$(brew --prefix)/opt/fzf/shell/key-bindings.zsh" ]]; then
