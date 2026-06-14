@@ -45,7 +45,7 @@ Each top-level directory is a **stow package**:
 
 ```text
 dotfiles/
-├── Brewfile              # List of all Homebrew formulae, casks, and VS Code extensions
+├── Brewfile              
 ├── zsh/
 │   └── .zshrc
 ├── ghostty/
